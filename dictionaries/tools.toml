@@ -1,0 +1,38 @@
+[Gloves]
+keywords = ["gloves", "glove"]
+
+[Tourniquet]
+keywords = ["tourniquet", "tq"]
+
+[Bandage]
+keywords = ["bandage", "gauze", "dressing", "cloth"]
+
+[CPRMask]
+keywords = ["cpr mask", "rescue mask", "pocket mask"]
+
+[Splint]
+keywords = ["splint", "splinting"]
+
+[Rope]
+keywords = ["rope", "cord", "line"]
+
+[Knife]
+keywords = ["knife", "blade", "cutting tool"]
+
+[WaterFilter]
+keywords = ["water filter", "purifier", "filtration"]
+
+[Firestarter]
+keywords = ["fire starter", "lighter", "matches", "flint"]
+
+[EmergencyBlanket]
+keywords = ["emergency blanket", "space blanket", "thermal blanket"]
+
+[Whistle]
+keywords = ["whistle"]
+
+[Flashlight]
+keywords = ["flashlight", "torch", "light"]
+
+[None]
+keywords = ["no tools", "nothing", "bare hands"]

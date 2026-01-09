@@ -1,0 +1,29 @@
+[Urban]
+keywords = ["urban", "city", "street", "building", "apartment", "downtown"]
+
+[Wilderness]
+keywords = ["wilderness", "woods", "forest", "backcountry", "trail", "hiking", "bush"]
+
+[Mountain]
+keywords = ["mountain", "alpine", "peak", "high altitude", "climbing"]
+
+[Desert]
+keywords = ["desert", "arid", "sand", "dry"]
+
+[Coastal]
+keywords = ["coastal", "beach", "shore", "ocean", "sea"]
+
+[ColdWeather]
+keywords = ["cold weather", "winter", "snow", "ice", "freezing"]
+
+[HotWeather]
+keywords = ["hot weather", "summer", "heat", "hot"]
+
+[Subterranean]
+keywords = ["cave", "underground", "subterranean", "tunnel"]
+
+[ConfinedSpaces]
+keywords = ["confined", "enclosed", "trapped", "small space"]
+
+[Aquatic]
+keywords = ["aquatic", "water", "swimming", "diving"]

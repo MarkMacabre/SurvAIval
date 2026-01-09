@@ -1,0 +1,11 @@
+[Immediate]
+keywords = ["now", "immediately", "urgent", "dying", "severe", "life-threatening", "emergency", "critical"]
+
+[High]
+keywords = ["soon", "fast", "quickly", "hurry", "asap"]
+
+[Medium]
+keywords = ["hours", "when possible", "later", "moderate"]
+
+[Low]
+keywords = ["planning", "prepare", "eventually", "prevention"]
