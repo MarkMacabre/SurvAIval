@@ -1,0 +1,32 @@
+# Rust
+/target/
+Cargo.lock
+
+# Databases
+*.db
+*.db-*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/local.properties
+android/.idea/
+android/build/
+android/app/build/
+*.apk
+*.aab
+*.ap_
+*.iml
+
+# Temporary
+/tmp/
