@@ -1,0 +1,13 @@
+[package]
+name = "survaival"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "survaival"
+path = "src/main.rs"
+
+[dependencies]
+survaival-core = { path = "../core" }
+clap = { version = "4.0", features = ["derive"] }

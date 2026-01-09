@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Control severe external bleeding",
+    "immediate_action": [
+      "Apply direct pressure to the wound with a clean cloth",
+      "If bleeding soaks through, add more dressings — do not remove original",
+      "If bleeding continues, apply a tourniquet proximal to wound and note time"
+    ],
+    "expanded_steps": [
+      "Use gloves if available to protect yourself",
+      "Maintain firm, steady pressure for at least 10 minutes",
+      "Elevate the injured limb above heart level if possible",
+      "For tourniquet: Place 2-3 inches above wound, tighten until bleeding stops"
+    ],
+    "warnings": [
+      "Do NOT remove embedded objects from the wound",
+      "Do NOT release tourniquet once applied",
+      "Do NOT apply tourniquet over a joint"
+    ],
+    "scenario_tags": ["Bleeding"],
+    "environment_tags": ["Urban", "Wilderness"],
+    "urgency": "Immediate",
+    "required_tools": ["Gloves", "Bandage", "Tourniquet"],
+    "no_tool_fallback": ["Use any clean cloth, clothing, or bare hands for pressure"],
+    "failure_fallback": ["Maintain pressure and evacuate to definitive care immediately"],
+    "source_reference": "Field Medical Guide v2.1, Chapter 4, Pages 12-15",
+    "confidence": "Verified"
+  },
+  {
+    "title": "Perform CPR on unresponsive adult",
+    "immediate_action": [
+      "Call for emergency help or have someone call",
+      "Begin chest compressions: 30 compressions at 100-120/min, 2 inches deep",
+      "Give 2 rescue breaths if trained, otherwise continue compressions only"
+    ],
+    "expanded_steps": [
+      "Place heel of hand on center of chest between nipples",
+      "Lock elbows and use body weight for compressions",
+      "Allow full chest recoil between compressions",
+      "Continue 30:2 cycle until help arrives or patient responds"
+    ],
+    "warnings": [
+      "Do NOT stop compressions for more than 10 seconds",
+      "Do NOT compress too slowly or too shallow",
+      "Do NOT perform CPR on a person with a pulse"
+    ],
+    "scenario_tags": ["CardiacArrest"],
+    "environment_tags": ["Urban", "Wilderness"],
+    "urgency": "Immediate",
+    "required_tools": ["CPRMask"],
+    "no_tool_fallback": ["Perform hands-only CPR without rescue breaths"],
+    "failure_fallback": ["Continue CPR until help arrives or exhaustion"],
+    "source_reference": "AHA Guidelines 2020",
+    "confidence": "Verified"
+  },
+  {
+    "title": "Clear airway obstruction in conscious adult",
+    "immediate_action": [
+      "Stand behind person and wrap arms around waist",
+      "Make a fist with one hand and place thumb side against abdomen above navel",
+      "Grasp fist with other hand and thrust inward and upward sharply"
+    ],
+    "expanded_steps": [
+      "Repeat thrusts until object is expelled or person becomes unconscious",
+      "If person can cough forcefully, encourage continued coughing",
+      "Be prepared to catch person if they lose consciousness"
+    ],
+    "warnings": [
+      "Do NOT perform abdominal thrusts on infants under 1 year",
+      "Do NOT slap the back if person is still able to breathe",
+      "Do NOT give up - continue until help arrives"
+    ],
+    "scenario_tags": ["Choking"],
+    "environment_tags": ["Urban", "Wilderness"],
+    "urgency": "Immediate",
+    "required_tools": ["None"],
+    "no_tool_fallback": ["Use Heimlich maneuver with bare hands"],
+    "failure_fallback": ["If unconscious, begin CPR and check mouth between compressions"],
+    "source_reference": "Red Cross First Aid Manual 2021, Chapter 8",
+    "confidence": "Verified"
+  },
+  {
+    "title": "Immobilize suspected fracture",
+    "immediate_action": [
+      "Do not move the injured limb unless absolutely necessary",
+      "Apply a splint above and below the injury site",
+      "Secure splint with bandages or cloth, not too tight"
+    ],
+    "expanded_steps": [
+      "Check circulation, sensation, and movement before and after splinting",
+      "Pad the splint with soft material for comfort",
+      "Elevate the limb if possible to reduce swelling"
+    ],
+    "warnings": [
+      "Do NOT try to realign the bone",
+      "Do NOT apply ice directly to skin",
+      "Do NOT move the person if spinal injury is suspected"
+    ],
+    "scenario_tags": ["Fracture"],
+    "environment_tags": ["Urban", "Wilderness", "Mountain"],
+    "urgency": "High",
+    "required_tools": ["Splint", "Bandage"],
+    "no_tool_fallback": ["Use sticks, rolled newspapers, or cardboard as improvised splint"],
+    "failure_fallback": ["Support limb in position found and seek immediate medical care"],
+    "source_reference": "Wilderness Medicine Manual, Chapter 12",
+    "confidence": "Verified"
+  },
+  {
+    "title": "Treat moderate to severe burn",
+    "immediate_action": [
+      "Remove person from heat source and stop burning process",
+      "Cool the burn with cool (not ice cold) running water for 10-20 minutes",
+      "Cover burn with sterile, non-adhesive dressing"
+    ],
+    "expanded_steps": [
+      "Remove jewelry and tight clothing before swelling occurs",
+      "Do not break blisters",
+      "Monitor for signs of shock",
+      "Keep person warm with blanket (not on burned area)"
+    ],
+    "warnings": [
+      "Do NOT use ice, butter, or ointments on burns",
+      "Do NOT break blisters or remove stuck clothing",
+      "Do NOT touch the burn with anything unsterile"
+    ],
+    "scenario_tags": ["Burn"],
+    "environment_tags": ["Urban", "Wilderness", "HotWeather"],
+    "urgency": "High",
+    "required_tools": ["Bandage", "EmergencyBlanket"],
+    "no_tool_fallback": ["Use clean cloth or plastic wrap to cover burn"],
+    "failure_fallback": ["Keep burn clean and dry, seek medical attention immediately"],
+    "source_reference": "Emergency Care Manual v3.2, Burns Section",
+    "confidence": "Verified"
+  }
+]

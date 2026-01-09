@@ -1,0 +1,44 @@
+[Bleeding]
+keywords = ["bleed", "bleeding", "hemorrhage", "blood", "cut", "laceration", "wound"]
+
+[CardiacArrest]
+keywords = ["cardiac arrest", "no pulse", "not breathing", "unresponsive", "collapse", "heart stopped"]
+
+[Choking]
+keywords = ["choking", "can't breathe", "airway blocked", "heimlich", "obstruction"]
+
+[Drowning]
+keywords = ["drowning", "water", "submersion", "rescue breathing"]
+
+[Fracture]
+keywords = ["fracture", "broken bone", "break", "broken"]
+
+[Burn]
+keywords = ["burn", "burned", "scald", "fire"]
+
+[HeatStroke]
+keywords = ["heat stroke", "heat exhaustion", "hyperthermia", "overheating"]
+
+[Hypothermia]
+keywords = ["hypothermia", "cold", "freezing", "exposure"]
+
+[Poisoning]
+keywords = ["poison", "poisoning", "toxic", "ingested"]
+
+[AnaphylaxisAllergy]
+keywords = ["anaphylaxis", "allergic reaction", "allergy", "epipen"]
+
+[SnakeBite]
+keywords = ["snake bite", "snakebite", "venomous"]
+
+[Shock]
+keywords = ["shock", "pale", "clammy", "hypotension"]
+
+[Seizure]
+keywords = ["seizure", "convulsion", "fit", "epilepsy"]
+
+[WoundInfection]
+keywords = ["infection", "infected", "pus", "sepsis"]
+
+[Dehydration]
+keywords = ["dehydration", "thirsty", "no water", "parched"]
